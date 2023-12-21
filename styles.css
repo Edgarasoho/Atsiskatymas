@@ -1,0 +1,176 @@
+.navbar .head-page {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+
+.navbar .navbar-brand {
+  font-family: Hind Madurai;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--Black, #000);
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav {
+    text-align: left;
+  }
+}
+.navbar .navbar-nav .navbar .navbar-nav .nav-item:not(:first-child) {
+  margin-left: 48px;
+}
+
+@media screen and (max-width: 991) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  margin-left: 48px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: var(--text-citation-and, #333);
+}
+
+.nav-bar-butt {
+  font-family: Hind Madurai;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 5px;
+  background-color: rgb(18, 137, 175);
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+header {
+  background-image: url(./Img/andrea-cau-nV7GJmSq3zc-unsplash\ 6.png);
+  background: cover;
+  height: 688px;
+}
+
+.row {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+}
+
+.textInImage {
+  padding-right: 492px;
+  font-family: Hind Madurai;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  color: white;
+}
+
+.parInImage {
+  color: white;
+}
+
+.secondPic {
+  background-color: black;
+  width: 770px;
+  height: 424px;
+  margin-left: 298px;
+  color: #080808;
+}
+
+@media (max-width: 767px) {
+  .buildingPict {
+    width: 770px;
+    margin-left: 481px;
+    position: relative;
+    height: 100%;
+  }
+}
+.textDownImg {
+  width: 373px;
+}
+
+.imageAndText {
+  display: flex;
+  justify-content: center;
+}
+
+.firstSmolImg {
+  width: 372px;
+  height: 209px;
+}
+
+.secSmolImg {
+  width: 372px;
+  height: 209px;
+}
+
+.lastBox {
+  margin-left: 60px;
+}
+
+.imageAndText {
+  padding-left: 79px;
+}
+
+.lastInformationRow {
+  margin-left: 280px;
+  padding-right: 253px;
+}
+
+.col {
+  color: var(--text-paragraph, black);
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.text {
+  margin-left: 298px;
+  margin-top: 30px;
+}
+
+.textPar {
+  color: var(--text-paragraph, #666);
+  font-family: Hind Madurai;
+  font-size: 18px;
+  margin-top: 64px;
+  margin-left: 298px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 770px;
+}
+
+.content {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  padding-top: 64px;
+  padding: 10px;
+  padding-bottom: 64px;
+}
+
+.smolTextMidle {
+  align-content: center;
+  border-left: 6px solid rgb(18, 137, 175);
+  height: 150px;
+  font-family: Hind Madurai;
+  font-size: 28px;
+  padding-left: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 378px;
+}
+
+* {
+  box-sizing: border-box;
+}/*# sourceMappingURL=styles.css.map */

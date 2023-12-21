@@ -1,0 +1,41 @@
+.secondPic {
+  background-color: black;
+  width: 770px;
+  height: 424px;
+  margin-left: 298px;
+  color: #080808;
+}
+@media (max-width: 767px) {
+  .buildingPict {
+    width: 770px;
+    margin-left: 481px;
+    position: relative;
+    height: 100%;
+  }
+}
+.textDownImg {
+  width: 373px;
+}
+.imageAndText {
+  display: flex;
+  justify-content: center;
+}
+.firstSmolImg {
+  width: 372px;
+  height: 209px;
+}
+.secSmolImg {
+  width: 372px;
+  height: 209px;
+}
+.lastBox {
+  margin-left: 60px;
+}
+
+.imageAndText {
+  padding-left: 79px;
+}
+.lastInformationRow {
+  margin-left: 280px;
+  padding-right: 253px;
+}
